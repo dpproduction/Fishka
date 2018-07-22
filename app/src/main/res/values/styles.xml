@@ -1,0 +1,153 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorPrimaryText</item>
+        <item name="android:textColorSecondary">@color/colorSecondaryText</item>
+        <item name="android:divider">@color/divider</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashProgressBarStyle" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/background_white</item>
+    </style>
+
+    <!--text styles THE BIGGEST SIZE-->
+    <style name="TextH1Black" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H1</item>
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH1White" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H1</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH1LightGrey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H1</item>
+        <item name="android:textColor">@color/font_light_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH1Grey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H1</item>
+        <item name="android:textColor">@color/font_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH1Blue" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H1</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!--text styles BIG SIZE-->
+    <style name="TextH2Black" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H2</item>
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH2Blue" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H2</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH2White" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H2</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TabStyle" parent="TextH2White">
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="TextH2LightGrey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H2</item>
+        <item name="android:textColor">@color/font_light_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH2Grey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H2</item>
+        <item name="android:textColor">@color/font_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <!--text styles PULL SIZE-->
+    <style name="TextH3Black" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H3</item>
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH3White" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H3</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH3Blue" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H3</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+    <style name="TextH3LightGrey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H3</item>
+        <item name="android:textColor">@color/font_light_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH3Grey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H3</item>
+        <item name="android:textColor">@color/font_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!--text styles SMALLER THAN PULL SIZE-->
+    <style name="TextH4Black" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H4</item>
+        <item name="android:textColor">@color/font_black</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH4White" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H4</item>
+        <item name="android:textColor">@color/font_white</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH4LightGrey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H4</item>
+        <item name="android:textColor">@color/font_light_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH4Grey" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H4</item>
+        <item name="android:textColor">@color/font_grey</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextH4Blue" parent="Base.TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/text_H4</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+</resources>

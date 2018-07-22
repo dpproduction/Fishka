@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin_vsmall">4dp</dimen>
+    <dimen name="activity_vertical_margin_vsmall">4dp</dimen>
+    <dimen name="activity_horizontal_margin_small">8dp</dimen>
+    <dimen name="activity_vertical_margin_small">8dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin_big">24dp</dimen>
+    <dimen name="activity_vertical_margin_big">24dp</dimen>
+    <dimen name="activity_horizontal_margin_bb">36dp</dimen>
+    <dimen name="activity_vertical_margin_bb">36dp</dimen>
+    <dimen name="activity_horizontal_margin_bbb">48dp</dimen>
+    <dimen name="activity_vertical_margin_bbb">48dp</dimen>
+    <dimen name="activity_horizontal_margin_vb">64dp</dimen>
+    <dimen name="activity_vertical_margin_vb">64dp</dimen>
+    <dimen name="activity_horizontal_margin_vvb">96dp</dimen>
+    <dimen name="activity_vertical_margin_vvb">96dp</dimen>
+
+    <dimen name="text_H001">38sp</dimen>
+    <dimen name="text_H01">32sp</dimen>
+    <dimen name="text_H0">26sp</dimen>
+    <dimen name="text_H1">22sp</dimen>
+    <dimen name="text_H1_5">18sp</dimen>
+    <dimen name="text_H2">16sp</dimen>
+    <dimen name="text_H3">14sp</dimen>
+    <dimen name="text_H4">12sp</dimen>
+    <dimen name="text_H5">10sp</dimen>
+    <dimen name="text_H6">8sp</dimen>
+
+    <dimen name="photo_list_size">115dp</dimen>
+    <dimen name="avatar_size">96dp</dimen>
+    <dimen name="task_item_avatar_size">48dp</dimen>
+    <dimen name="task_detail_avatar_size">72dp</dimen>
+    <dimen name="feed_item_size">350dp</dimen>
+</resources>

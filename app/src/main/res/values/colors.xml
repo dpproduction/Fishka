@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42ba56</color>
+    <color name="colorPrimaryDark">#267433</color>
+    <color name="colorPrimaryLight">#6de681</color>
+    <color name="colorAccent">#c96a30</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#BDBDBD</color>
+
+
+    <color name="orange">#d84b37</color>
+    <color name="transparent_orange">#30ff7300</color>
+
+    <color name="green">#5CB85C</color>
+
+    <color name="yellow">#FFCC00</color>
+    <color name="transparent_yellow">#fff3cc</color>
+
+    <color name="toolbar_create_event">#424242</color>
+
+    <color name="blue">#3b5998</color>
+    <color name="transparent_blue">#82afd5</color>#
+
+    <color name="pink">#BA68C8</color>
+
+    <color name="gold">#857635</color>
+
+    <color name="red">#EA5050</color>
+    <color name="transparent_red">#fcdddc</color>
+
+    <color name="grey">#767676</color>
+    <color name="transparent_grey">@color/background_my_status_grey</color>
+
+    <color name="black">#000000</color>
+    <color name="mostly_black">#212121</color>
+    <color name="transparent_black">#99000000</color>
+
+    <!-- use this font colors-->
+    <color name="font_dark_grey">#1f1f1f</color>
+    <color name="font_light_grey">#e6e6e6</color>
+    <color name="font_grey">#707070</color>
+    <color name="font_white">#ffffff</color>
+    <color name="font_black">@color/mostly_black</color>
+    <color name="font_green">#ff66bf71</color>
+    <color name="logo_font_green">#afdcbe</color>
+    <color name="add_comment_font_grey">#757575</color>
+    <!-- use this font colors-->
+
+
+    <!-- change upper colors-->
+    <color name="background_grey">#363636</color>
+    <color name="background_black">#141414</color>
+    <color name="background_white">#FFFFFF</color>
+    <color name="background_light_grey">#f8f8f8</color>
+    <color name="background_my_status_grey">#e2e2e2</color>
+    <color name="background_transparent_black">#96000000</color>
+    <color name="foreground_material_black">#000000</color>
+    <color name="light_blue">#597ba0</color>
+</resources>
