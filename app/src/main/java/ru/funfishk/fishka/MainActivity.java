@@ -12,7 +12,6 @@ import android.util.Log;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdLoader;
 import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
@@ -66,8 +65,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         mAdView = findViewById(R.id.adView);
-        AdSize adSize = new AdSize(320, 50);
-        mAdView.setAdSize(adSize);
 
 
         feedRecyclerAdapter = new FeedAdapter(this, this);
