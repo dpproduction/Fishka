@@ -94,8 +94,9 @@ public class FeedAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         switch (holder.getItemViewType()) {
             case AD_VIEW_TYPE:
                 final ADViewHolder adViewHolder = (ADViewHolder) holder;
-                int pos = r.nextInt(mNativeAds.size());
+
                 if(mNativeAds.size()>0) {
+                    int pos = r.nextInt(mNativeAds.size());
                     populateContentAdView(mNativeAds.get(pos), (NativeContentAdView) holder.itemView);
                 }
                 break;
